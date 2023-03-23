@@ -1,0 +1,418 @@
+body {
+    background-image: url(./img/solid-navy-blue-concrete-textured-wall.jpg);
+    overflow-x: hidden;
+}
+
+.home-page {
+    height: 90vh;
+    width: 100%;
+    background-image: url(./img/pexels-ella-olsson-1640772.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blue {
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.content1 {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.blue h1 {
+    font-size: 3.2rem;
+    color: rgb(0, 190, 0);
+    font-weight: 700;
+}
+
+.blue p {
+    color: white;
+}
+
+.h-btn button {
+    flex-direction: row;
+    width: 10rem;
+    height: 3.3rem;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+
+.h-btn .btn1 {
+    background-color: orange;
+    font-weight: 700;
+    color: white;
+    border: none;
+    margin-right: 10px;
+
+}
+
+.h-btn .btn2 {
+    background-color: transparent;
+    font-weight: 700;
+    color: white;
+    border: 2px solid orange;
+    margin-left: 10px;
+    transition: all .4s ease;
+}
+
+.h-btn .btn2:hover {
+    background-color: rgb(255, 255, 255, .8);
+    color: black;
+}
+
+
+/* start navbar */
+
+.main-nav {
+    background-color: rgb(240, 240, 240) !important;
+    height: 12vh;
+    box-shadow: 0 6px 8px rgb(0, 0, 0, .5);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 3.5rem;
+    width: 165px;
+}
+
+.main-ul {
+    margin-right: 110px;
+    gap: 22px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-transform: capitalize;
+    font-weight: 700 !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.nav-link i {
+    margin-right: 5px;
+}
+
+
+
+.nav-link:hover {
+    color: orange !important;
+}
+
+.nav-link i:hover {
+    color: green !important;
+}
+
+.header-form {
+    margin-left: 12rem !important;
+}
+
+
+.header-form input {
+    width: 20rem;
+    /* border: 1px solid red; */
+    box-shadow: -3px 3px 1px rgba(161, 161, 161, 0.6);
+}
+
+.header-form button {
+    background-color: rgb(0, 156, 0);
+    border: none;
+    font-weight: 600;
+    text-align: center !important;
+    width: 5rem;
+    color: rgb(255, 255, 255) !important;
+}
+
+.header-form button:hover {
+    background-color: rgb(0, 190, 0);
+}
+
+/* new section start */
+
+.main-carousal {
+    margin-top: 6rem;
+}
+
+.card-img1 {
+    height: 20rem;
+    width: 18rem;
+    background-color: rgb(255, 221, 0);
+    background-image: url(./img/andy-chilton-oljL3vFlV2g-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid rgb(205, 205, 205);
+}
+
+.card-img1 p,
+.card-img2 p {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.card-img1 h4 {
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.card-img2 h4 {
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+
+
+.card-img3 h4 {
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.card-img4 h4 {
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.card-img2 {
+    height: 20rem;
+    width: 18rem;
+    background-color: rgb(137, 239, 255);
+    background-image: url(./img/brooke-lark-W9OKrxBqiZA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 2px solid rgb(205, 205, 205);
+}
+
+.card-img3 {
+    height: 20rem;
+    width: 18rem;
+    background-color: rgb(73, 73, 73);
+    background-image: url(./img/chad-montano-eeqbbemH9-c-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 2px solid rgb(205, 205, 205);
+}
+
+.card-img4 {
+    height: 20rem;
+    width: 18rem;
+    background-color: rgb(0, 255, 132);
+    background-image: url(./img/photo-1604382355076-af4b0eb60143.avif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 2px solid rgb(205, 205, 205);
+
+}
+
+
+
+.col1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/* strat restaurent */
+
+.restaurent {
+    margin-top: 5rem;
+    background-color: #fff;
+    padding: 40px 0 40px 0;
+    /* height: 100vh; */
+}
+
+.type-select {
+    display: flex;
+    justify-content: flex-end;
+    gap: 35px;
+    margin-top: 1.5rem;
+    padding-right: 40px;
+}
+
+.rest-type {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    padding-bottom: 10px;
+    transition: all .3s ease;
+}
+
+.rest-type:hover {
+    /* padding-bottom: 10px; */
+    color: rgb(0, 0, 0);
+    border-bottom: 4px solid orange;
+}
+
+
+.rest-h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 1.2rem;
+}
+
+.row2 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.409);
+    height: 5rem;
+
+}
+
+.rest-card {
+    height: 21.5rem;
+    width: 18rem;
+    margin-top: 3.5rem;
+    border-radius: 10px;
+    background-color: rgb(247, 251, 255);
+    transition: all .2s ease;
+}
+
+.rest-card:hover {
+    margin-top: 3rem;
+    box-shadow: 0 0 20px gray;
+}
+
+.rest-card-img {
+    height: 10rem;
+    width: 18rem;
+}
+
+.rest-card-img img {
+    height: 10rem;
+    width: 18rem;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-para {
+    display: flex;
+    gap: 35px;
+    margin-bottom: -5px !important;
+
+}
+
+.card-content {
+    padding: 5px 0 5px 12px;
+    color: black;
+}
+
+.rest-a {
+    text-decoration: none;
+}
+
+.rest-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rest-button button {
+    margin-top: 2rem;
+    height: 2.8rem;
+    width: 8rem;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+
+/* start footer */
+
+footer {
+    margin-top: 6rem;
+    max-width: 100%;
+    min-height: 70vh;
+    background-color: rgb(81, 81, 81);
+    padding: 1rem 0;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+footer h5{
+    color: rgb(0, 163, 181);
+}
+
+@media (max-width:1480px) {
+    .header-form{
+        width: 20rem;
+        margin-left: 7rem !important;
+    }   
+    
+    .main-ul{
+        margin-right: 0px !important;
+        gap: 16px;
+    }
+}
+
+@media(max-width:1184px) {
+        .header-form{
+            width: 5rem;
+            margin-left: 2rem !important;
+        }
+
+        .main-ul{
+            margin-right: 0px !important;
+            gap: 10px;
+        }
+    
+}
+
+@media (max-width:991px) {
+    .main-ul{
+        background-color: #fff;
+        width: 40%;
+    }
+
+    .header-form{
+        width: 10rem;
+        margin-left: 10rem;
+    }
+}
